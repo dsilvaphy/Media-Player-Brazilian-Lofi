@@ -37,7 +37,7 @@ O projeto contém os seguintes arquivos e pastas:
 ---
   <div align="center">
   <a href="https://dsilvaphy.itch.io/media-player-brazilian-lofi" target="_blank">
-    <img src="https://github.com/dsilvaphy/Media-Player-Brazilian-Lofi/blob/main/img/capture.png" alt="resume" width="900" height="400">
+    <img src="https://github.com/dsilvaphy/Media-Player-Brazilian-Lofi/blob/main/img/capture.png" alt="printmediaplayer" width="900" height="400">
   </a>  
  </div>
 
