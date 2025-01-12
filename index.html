@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Player</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="player">
+    <div class="cover">
+      <img id="cover-image" src="assets/1.png" alt="Music Cover" />
+    </div>
+    <div class="details">
+      <h3 id="title">Carolina Carol Bela</h3>
+      <p id="artist">Jorge Ben Jor</p>
+    </div>
+    <div class="controls">
+      <button id="prev">
+        <img src="buttons/left.png" alt="Previous" class="button-icon">
+      </button>
+      <button id="play">
+        <img src="buttons/play.png" alt="Play" class="button-icon">
+      </button>
+      <button id="next">
+        <img src="buttons/right.png" alt="Next" class="button-icon">
+      </button>
+    </div>
+    <audio id="audio"></audio>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

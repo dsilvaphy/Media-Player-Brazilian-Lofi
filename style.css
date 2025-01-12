@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'Bree Serif';
+  src: url('fonts/BreeSerif-Regular.ttf') format('truetype');
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff; /* Cor creme */
+  background: url('img/cogu.png') no-repeat center center fixed;
+  background-size: cover; /* Faz a imagem cobrir toda a tela */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.player {
+  background: #fef9e6;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 300px;
+  color: #964b00;
+}
+
+.cover img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.details {
+  margin: 0px 0;
+  text-align: center;
+}
+
+#title {
+  font-size: 25px;
+  margin-bottom: 5px;
+  color: #9b6654;
+  font-family: 'Bree Serif'
+}
+
+#artist {
+  font-size: 16px;
+  margin-top: 0;
+  color: #b89e92;
+  font-family: 'Bree Serif'
+}
+
+
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* Espaçamento entre botões */
+}
+
+.controls button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.button-icon {
+  width: 50px; /* Ajuste o tamanho */
+  height: 50px;
+  object-fit: contain;
+}
+
+button:hover .button-icon {
+  filter: brightness(1.2);
+}
