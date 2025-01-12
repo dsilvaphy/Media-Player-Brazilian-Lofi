@@ -88,3 +88,9 @@ O projeto contém os seguintes arquivos e pastas:
 ---
 
 Qualquer dúvida ou sugestão, fique à vontade para entrar em contato! 😊
+
+## Licença
+
+Este projeto está licenciado sob a **Creative Commons Attribution-NonCommercial 4.0 International License**. Não é permitido usar o código para fins comerciais.
+
+Veja a licença completa [CC BY-NC 4.0](/creativecommons.org/licenses/by-nc/4.0/deed.pt-br).
